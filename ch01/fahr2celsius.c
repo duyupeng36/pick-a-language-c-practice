@@ -2,7 +2,7 @@
  * fahr2celsius.c - Convert Fahrenheit to Celsius.
  * Output of Fahrenheit vs. Celsius Temperature Control Table
  *
- * for fahr = 0, 20, ..., 300; flo arithmetic version
+ * for fahr = 0, 20, ..., 300; floating-point arithmetic version
  */
 
 #include <stdio.h>

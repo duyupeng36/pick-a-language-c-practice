@@ -15,9 +15,11 @@ int main(void)
     {
         if (ch == ' ')
             ++number_space;
-        else if (ch == '\t')
+        
+        if (ch == '\t')
             ++number_tab;
-        else if (ch == '\n')
+        
+        if (ch == '\n')
             ++number_newline;
     }
     printf("spaces: %ld, tabs: %ld, newlines: %ld\n",
